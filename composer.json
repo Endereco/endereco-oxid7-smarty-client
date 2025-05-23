@@ -1,0 +1,5 @@
+{
+    "name": "endereco/endereco-oxid7-client",
+    "description": "Das offizielle Plugin von endereco zur Adressvalidierung und Kundenstammdatenprüfung für OXID 7 Webshops",
+    "require": {}
+}
