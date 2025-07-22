@@ -1,0 +1,17 @@
+parameters:
+    level: 5
+    paths:
+        - ./src/
+    excludePaths:
+        - ./shops
+        - ./vendor
+        - ./node_modules
+    bootstrapFiles:
+        - ./phpstanBootstrap-7.1.php
+    treatPhpDocTypesAsCertain: false
+    ignoreErrors:
+        - message: "#^Access to an undefined property OxidEsales\\\\Eshop\\\\Application\\\\Model\\\\User::\\$#"
+        - message: "#^Access to an undefined property OxidEsales\\\\Eshop\\\\Application\\\\Model\\\\Address::\\$#"
+        - message: "#^Access to an undefined property OxidEsales\\\\Eshop\\\\Application\\\\Model\\\\Country::\\$#"
+        - message: "#^Access to an undefined property OxidEsales\\\\Eshop\\\\Application\\\\Model\\\\Order::\\$#"
+        - message: "#^Access to an undefined property Endereco\\\\Oxid7Client\\\\Model\\\\Order::\\$#"

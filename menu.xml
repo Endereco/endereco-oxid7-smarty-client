@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OX>
+    <OXMENU id="ENDERECO_OXID7_CLIENT_MAIN">
+        <MAINMENU id="ENDERECO_OXID7_CLIENT_HOME">
+            <SUBMENU id="ENDERECO_OXID7_CLIENT_SETTINGS" cl="enderecosettings"/>
+        </MAINMENU>
+        <MAINMENU id="mxorders">
+            <SUBMENU id="mxdisplayorders" cl="admin_order" list="order_list">
+                <TAB id="ENDERECO_ORDER_TAB" cl="addresscheck" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>

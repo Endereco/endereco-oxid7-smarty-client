@@ -1,0 +1,20 @@
+{
+  "name": "endereco-oxid7-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "endereco.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress"
+  },
+  "author": "ilja_weber <ilja@endereco.de>",
+  "license": "ISC",
+  "dependencies": {
+    "@endereco/js-sdk": "1.11.0",
+    "polyfill-array-includes": "^2.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 9"
+  ]
+}
