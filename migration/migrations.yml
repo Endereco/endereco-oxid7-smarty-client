@@ -1,0 +1,4 @@
+migrations_paths:
+  'Endereco\Oxid7Client\Migrations': data
+table_storage:
+  table_name: oxmigrations_endereco_oxid7_client
